@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../assets/bg6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 50px;
+    grid-area: text;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 20vmin;
+    padding: 30px;
+    color: #1d9099;
+    text-shadow: 1vmin 1vmin 0 #E79C10, -1vmin -1vmin 0 #D53A33;
+}
+
+#button{
+    border: 3px solid white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    font-size: 22px;
+    font-weight: 900;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#score-box {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#replay{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#score-board{
+     grid-area: text;
+     font-family: 'Sarpanch', sans-serif;
+     font-size: 20vmin;
+     margin: 0;
+     padding: 30px;
+     color: #1d9099;
+     text-shadow: 1vmin 1vmin 0 #E79C10, -1vmin -1vmin 0 #D53A33;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Hangman Quiz</title>
+</head>
+<body id="body">
+    <div id="logo"><img src="./assets/logo.png" alt="Game Logo"></div>
+    <div id="name-input">
+        <input type="text" class="button" id="input-box" placeholder="Enter your name here" maxlength="28" required>
+        <input type="submit" class="button" id="play-button" value="PLAY NOW">
+    </div>
+    <div>
+        <button class="button" id="info-button">How to Play</button>
+    </div>
+
+    <audio src="./assets/bgm1.mp3" hidden></audio>
+
+    <script src="index.js"></script>
+</body>
+</html>

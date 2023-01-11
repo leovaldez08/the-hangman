@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/bg5.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+#instructions{
+    font-size: 22px;
+    margin-left: 260px;
+}
+
+ol{
+    padding: 10px;
+    font-weight: 600;
+}
+
+#whole-div{
+    margin-top: 90px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+    <title>The Hangman Quiz</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body id="body">
+      <div >
+        <h1>The Hangman Quiz</h1>
+        <div class="container">
+          <div class="correct-guesses">Your Score: <span id='score'>0</span><Span> Points</Span></div>
+          <div class="wrong-guesses">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+        </div>
+        <div class="text-center">
+          <img id='hangmanPic' src="../assets/0.jpg" alt="gallows">
+          <p>Guess the Programming word:</p>
+          <p id="mainword">The word to be guessed goes here</p>
+          <div id="keyContainer"></div>
+          <button class="btn btn-info" onClick="next()">Next</button>
+        </div> 
+      </div>
+
+      <audio src="../assets/bgm3.mp3"></audio>
+    
+<script src="game.js"></script>
+</body>
+</html>
